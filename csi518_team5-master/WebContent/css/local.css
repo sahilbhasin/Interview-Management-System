@@ -1,0 +1,63 @@
+body {
+	margin: 20px;
+	font-family: Calibri,Helvetica,Arial,sans-serif;
+}
+a {
+	color: #6060f1;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+table, th, td {
+	border-collapse: collapse;
+	padding: 0px;
+}
+
+.orgtable th {
+  background-color: #d1d1d1;
+  text-align: left;
+}
+
+.jobstable, th , td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+.jobstable th {
+  background-color: #d1d1d1
+}
+.jobstable tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+.jobstable tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.jobstable tr:hover:nth-child(odd) {
+  background-color: #e1e1f1;
+}
+.jobstable tr:hover:nth-child(even) {
+  background-color: #e1e1f1;
+}
+
+.orgform {
+	border: 0px inset;
+}
+.orgsubmit {
+	display: none;	
+	
+}
+.successmsg {
+	color: darkgreen;
+	font-weight: bold;
+}
+.errormsg {
+	color: red;
+	font-weight: bold;
+}
+.editlink {
+	display: none;
+}
